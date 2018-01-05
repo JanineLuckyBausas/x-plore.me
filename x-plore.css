@@ -1,0 +1,297 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	width: 1876px;
+	position: relative;
+	font-family: "Impact", fantasy;
+}
+
+/*HEADER*/
+.header-container{
+	width: 100%;
+	height: 130px;
+	background-color: #fff;
+	opacity: 0.9;
+	position: absolute;
+}
+header{
+	padding: 30px 0;
+	position: absolute;
+	width: 100%;
+	
+}
+.container-center{
+	width: 1020px;
+	margin: 0 auto;
+}
+.logo{
+	width: 200px;
+	height: 60px;
+}
+.top-nav{
+	display: inline-block;
+	float: right;
+	margin-top: 25px;
+}
+.top-nav a{
+	text-decoration: none;
+	color: #4f4f4f;
+	font-weight: bolder;
+	margin-left: 20px;
+	font-size: 15px;
+}
+.top-nav a:hover{
+	color: #81b726;
+}
+/*BANNER*/
+.banner{
+	height: 915px;
+}
+.banner img{
+	width: 100%;
+	height: 915px;
+}
+.arrows a:first-child{
+	position: absolute;
+	font-size: 40px;
+	top: 450px;
+	left: 30px;
+	color: #fff;
+}
+.arrows a:last-child{
+	position: absolute;
+	font-size: 40px;
+	top: 450px;
+	right: 30px;
+	color: #fff;
+}
+.circles{
+	position: absolute;
+	top: 590px;
+	width: 680px;
+}
+.circles a{
+	text-decoration: none;
+	color: #fff;
+}
+.circles span{
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	background-color: #81b726;
+	font-size: 22px;
+	padding: 12px;
+}
+.banner-text{
+	width: 680px;
+	color: #fff;
+	position: absolute;
+	top: 650px;
+}
+.banner-text h1{
+	font-size: 38px;
+	margin-bottom: 10px;
+}
+.banner-text p{
+	font-size: 16px;
+	line-height: 25px;
+}
+.banner-text button{
+	border-style: none;
+	background-color: #81b726; 
+	padding: 16px;
+	font-size: 15px;
+	color: #fff;
+	margin-top: 20px;
+}
+.search-container{
+	background-color: #524c40;
+	width: 315px;
+	height: 120px;
+	opacity: 0.8;
+	position: absolute;
+	top: 540px;
+	right: 430px;
+}
+.search{
+	width: 280px;
+	position: absolute;
+	top: 540px;
+	right: 430px;
+	padding: 20px 15px 15px 15px;
+}
+.search span{
+	color: #fff;
+	font-size: 13px;
+	display: block;
+}
+.search input,
+.search button{
+	border-style: none;
+	padding: 20px 10px;
+	font-size: 15px;
+	margin-top: 10px;
+}
+.search input{
+	width: 180px;
+}
+.search button{
+	position: absolute;
+	width: 80px;
+	background-color: #81b726;
+	color: #fff;
+}
+.featured-container{
+	background-color: #524c40;
+	width: 315px;
+	height: 170px;
+	opacity: 0.8;
+	position: absolute;
+	top: 680px;
+	right: 430px;
+}
+.featured{
+	width: 280px;
+	padding: 15px;
+	position: absolute;
+	top: 680px;
+	right: 430px;
+}
+.featured span{
+	color: #fff;
+	font-size: 13px;
+	display: inline;
+	margin-bottom: 10px;
+}
+.images{
+	margin-top: 10px;
+}
+.images img{
+	width: 43px;
+	margin: 2px;
+	border-radius: 50%;
+	border: 2px solid #9d9d9d;
+}
+/*CONTENTS*/
+.content{
+	color: #4f4f4f;
+}
+.upper,
+.lower{
+	height: 500px;
+}
+.content .upper-img{
+	float: left;
+	width: 940px;
+	height: 500px;
+}
+.upper{
+	float: left;
+	width: 460px;
+	height: 460px;
+	padding-top: 40px;
+	margin-left: 50px;
+	line-height: 25px;
+}
+.content .upper h3{
+	margin-bottom: 20px;	
+}
+.content p{
+	margin-top: 20px;
+	font-size: 13px;
+}
+.content button{
+	border-style: none;
+	background-color: #81b726; 
+	padding: 16px;
+	font-size: 15px;
+	color: #fff;
+	margin-top: 20px;
+}
+.lower{
+	float: right;
+	width: 460px;
+	height: 480px;
+	padding-top: 40px;
+	margin-right: 50px;
+	line-height: 25px;
+}
+.content .lower-img{
+	float: right;
+	width: 940px;
+	height: 520px;
+}
+.content .lower button{
+	display: inline-block;
+}
+
+/*FOOTER*/
+.footer{
+	width: 100%;
+	height: 320px;
+	background-image: linear-gradient(
+		rgba(82,76,64,.9),
+		rgba(82,76,64,.9)),
+	url("slide5-2.jpg");
+	float: left;
+}
+footer .container-center{
+	text-align: center;
+	padding: 50px 0;
+	line-height: 25px;
+}
+footer h3{
+	margin-bottom: 40px;
+}
+footer input{
+	float: left;
+	width: 320px;
+	height: 30px;
+	border-style: none;
+	padding: 10px 20px;
+	margin-top: 30px;
+	margin-left: 270px;
+}
+footer button{
+	border-style: none;
+	display: inline-block;
+	float: left;
+	width: 120px;
+	height: 50px;
+	right: 650px;
+	background-color: #81b726;
+	color: #fff;
+	margin-top: 30px;
+}
+.footer-2{
+	float: left;
+	width: 100%;
+	height: 130px;
+	background-color: #524c40;
+}
+
+.footer-2 span{
+	float: left;
+	color: #fff;
+	padding-top: 5px;
+}
+.footer-2 .social-media-links i{
+	padding: 10px 12px;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	color: #fff;
+}
+.footer-2 .social-media-links i:first-child{
+	padding: 10px 14px;
+}
+.footer-2 .social-media-links{
+	float: right;
+}
+
+
+
+
+
+
